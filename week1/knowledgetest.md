@@ -9,23 +9,23 @@ Java uses compiler, whereas Python uses Interpreter
 
 ## 3 Write an algorithm for finding a number from a file which has sorted numbers. (Assume you have functions to read the file line by line and one number is written per line)
 ```python
-  def findNumber(int num):
-    file = open('fileWithNums.txt') # Open the file
-    lines = file.readLines() # Get all the lines
-    count = 0
-    for line in lines:
-        count++
-        if(line == num)
-          print("Input number {} found at line #{} in the given file".format(num, count))
-          break;
+def findNumber(int num):
+  file = open('fileWithNums.txt') # Open the file
+  lines = file.readLines() # Get all the lines
+  count = 0
+  for line in lines:
+      count++
+      if(line == num)
+        print("Input number {} found at line #{} in the given file".format(num, count))
+        break;
 ```
 ## 4 Write a function that takes name of the person running the program and prints "Hey there <Name> !" [Hint: Try str = input("Whats your name ? ") ]
 
 ```python
    
-  def hello()
-    name = input("Please enter your name -")
-    print("Hello there, " + name)
+def hello()
+  name = input("Please enter your name -")
+  print("Hello there, " + name)
  ```   
 ## 5 Write a function which prints cubes of all values from 1 to 20
 ```python
