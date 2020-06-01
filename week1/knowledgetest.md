@@ -1,4 +1,4 @@
-Knowledge Test
+# Knowledge Test
 
 ## 1 Describe one difference between compliers and interpreters.
 Compilers convert the code to byte code, then that code gets executed. Since the conversion is already done, the byte code is faster to execute.
